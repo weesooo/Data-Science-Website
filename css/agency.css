@@ -585,6 +585,12 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+
+section#coming_soon {
+  text-align: center;
+}
+
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
