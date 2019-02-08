@@ -62,12 +62,43 @@
 
   <!-- Header -->
   <header class="masthead">
-    <div class="container">
-      <div class="intro-text">
-        <div class="intro-lead-in">Welcome To Data Science</div>
-        <div class="intro-heading text-uppercase">It's Nice To Meet You, Enjoy the tour</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- First Slide -->
+        <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1519120126473-8be7aedcd6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!--Second Slide -->
+        <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1525857222756-37cdb4e87e36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Third Slide -->
+        <div class="carousel-item" style="background-image: url('https://images.unsplash.com/photo-1525857332689-4b3110c2d3f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=628&q=80')">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <!-- Fourth Slide -->
+        <div class="carousel-item" style="background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </header>
 
